@@ -1,6 +1,14 @@
 
 # Microcomputers LAB 04 
-Waterlevel sensor using the PIC16F877A microcontroller 
+Controlling the waterlevel of a water tank using the PIC16F877A microcontroller and digital sensors
+
+<p>
+ 
+ 
+ </p>
+ 
+ # ABSTRACT
+A water level controlling system was developed for a water tank mainly using the PIC16f877A microcontroller. A 'C language' code was developed using the MPLabs software, while a schematic layout of the required circuit was designed on the Proteus software and was converted to a PCB layout to obtain the necessary circuit that was needed. DC motors, digital IR obstacle sensors, etc were also mainly used. 
 
 <p>
  
@@ -8,7 +16,9 @@ Waterlevel sensor using the PIC16F877A microcontroller
  </p>
 
 ## Introduction 
-We are constructing a waterlevel sensor using the PIC16F877A microcontroller and to demonstrate the logic behind the system we are using analogue thermal sensors as the switches interfaced with the system and LEDS as the output to detect the relavant logic levels. The truth table behind the programme used is shown below
+The PIC16F877A microcontroller consists of 40 pins, while 33 pins are for inputs and outputs. As a result of having the Flash Program Memory this microcontroller can write-erase as many times as possible which is one of its main advantages. In this assignment, the microcontroller is used to operate the logics under external stimuli input/output to and from it respectively. Furthermore, DC motor is an electrical equipment which converts electrical energy into mechanical energy. This conversion is done by creating a magnetic field which is powered by direct current. DC motors are widely used in comparison with other types of motors due to the ability to precisely control the speed. Digital Sensor is a type of device which measures a physical input and converts its data in a way which can be read by machines and humans. In this experiment obstacle sensors were used. 
+
+
 
 <p>
  
